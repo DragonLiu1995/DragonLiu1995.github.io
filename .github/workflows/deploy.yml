@@ -1,3 +1,4 @@
+# .github/workflows/deploy.yml
 name: Deploy
 
 on:
@@ -13,9 +14,15 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+
+      - name: Install ImageMagick & headers
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick libmagickwand-dev
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
@@ -41,7 +48,6 @@ jobs:
         id: setup
         shell: bash
         run: |
-          # determine source branch & no-push flag
           if [[ "${GITHUB_REF}" == refs/pull/*/merge ]]; then
             echo "SRC_BRANCH=${GITHUB_HEAD_REF}" >> $GITHUB_OUTPUT
             echo "NO_PUSH=--no-push"       >> $GITHUB_OUTPUT
