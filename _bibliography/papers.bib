@@ -1,13 +1,18 @@
 @InProceedings{Liu_2025_CVPR,
+    abbr={CVPR},
+    bibtex_show={true},
     author    = {Liu, Xiulong and Kumar, Anurag and Calamia, Paul and Amengual, Sebastia V. and Murdock, Calvin and Ananthabhotla, Ishwarya and Robinson, Philip and Shlizerman, Eli and Ithapu, Vamsi Krishna and Gao, Ruohan},
     title     = {Hearing Anywhere in Any Environment},
     booktitle = {Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR)},
     month     = {June},
     year      = {2025},
-    pages     = {5732-5741}
+    pages     = {5732-5741},
+    selected={true}
 }
 
 @inproceedings{liu2024vatt,
+ abbr={NEURIPS},
+ bibtex_show={true},
  author = {Liu, Xiulong and Su, Kun and Shlizerman, Eli},
  booktitle = {Advances in Neural Information Processing Systems},
  editor = {A. Globerson and L. Mackey and D. Belgrave and A. Fan and U. Paquet and J. Tomczak and C. Zhang},
@@ -16,10 +21,13 @@
  title = {Tell What You Hear From What You See - Video to Audio Generation Through Text},
  url = {https://proceedings.neurips.cc/paper_files/paper/2024/file/b782a3462ee9d566291cff148333ea9b-Paper-Conference.pdf},
  volume = {37},
- year = {2024}
+ year = {2024},
+ selected={true}
 }
 
 @InProceedings{su2024vision,
+  abbr={ICML},
+  bibtex_show={true},
   title = 	 {From Vision to Audio and Beyond: A Unified Model for Audio-Visual Representation and Generation},
   author =       {Su, Kun and Liu, Xiulong and Shlizerman, Eli},
   booktitle = 	 {Proceedings of the 41st International Conference on Machine Learning},
@@ -29,31 +37,36 @@
   volume = 	 {235},
   series = 	 {Proceedings of Machine Learning Research},
   month = 	 {21--27 Jul},
+  selected={true},
   publisher =    {PMLR},
-  pdf = 	 {https://raw.githubusercontent.com/mlresearch/v235/main/assets/su24b/su24b.pdf},
-  url = 	 {https://proceedings.mlr.press/v235/su24b.html},
   abstract = 	 {Video encompasses both visual and auditory data, creating a perceptually rich experience where these two modalities complement each other. As such, videos are a valuable type of media for the investigation of the interplay between audio and visual elements. Previous studies of audio-visual modalities primarily focused on either audio-visual representation learning or generative modeling of a modality conditioned on the other, creating a disconnect between these two branches. A unified framework that learns representation and generates modalities has not been developed yet. In this work, we introduce a novel framework called Vision to Audio and Beyond (VAB) to bridge the gap between audio-visual representation learning and vision-to-audio generation. The key approach of VAB is that rather than working with raw video frames and audio data, VAB performs representation learning and generative modeling within latent spaces. In particular, VAB uses a pre-trained audio tokenizer and an image encoder to obtain audio tokens and visual features, respectively. It then performs the pre-training task of visual-conditioned masked audio token prediction. This training strategy enables the model to engage in contextual learning and simultaneous video-to-audio generation. After the pre-training phase, VAB employs the iterative-decoding approach to rapidly generate audio tokens conditioned on visual features. Since VAB is a unified model, its backbone can be fine-tuned for various audio-visual downstream tasks. Our experiments showcase the efficiency of VAB in producing high-quality audio from video, and its capability to acquire semantic audio-visual features, leading to competitive results in audio-visual retrieval and classification.}
 }
 
 
 @InProceedings{Dong_2024_CVPR,
+    abbr={CVPR},
+    bibtex_show={true},
     author    = {Dong, Zhikang and Liu, Xiulong and Chen, Bin and Polak, Pawel and Zhang, Peng},
     title     = {MuseChat: A Conversational Music Recommendation System for Videos},
     booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
     month     = {June},
     year      = {2024},
-    pages     = {12775-12785}
+    pages     = {12775-12785},
+    selected={true}
 }
 
-@article{Liu_Paul_Chatterjee_Cherian_2024, title={CAVEN: An Embodied Conversational Agent for Efficient Audio-Visual Navigation in Noisy Environments}, volume={38}, url={https://ojs.aaai.org/index.php/AAAI/article/view/28167}, DOI={10.1609/aaai.v38i4.28167}, abstractNote={Audio-visual navigation of an agent towards locating an audio goal is a challenging task especially when the audio is sporadic or the environment is noisy. In this paper, we present CAVEN, a Conversation-based Audio-Visual Embodied Navigation framework in which the agent may interact with a human/oracle for solving the task of navigating to an audio goal. Specifically, CAVEN is modeled as a budget-aware partially observable semi-Markov decision process that implicitly learns the uncertainty in the audio-based navigation policy to decide when and how the agent may interact with the oracle. Our CAVEN agent can engage in fully-bidirectional natural language conversations by producing relevant questions and interpret free-form, potentially noisy responses from the oracle based on the audio-visual context. To enable such a capability, CAVEN is equipped with: i) a trajectory forecasting network that is grounded in audio-visual cues to produce a potential trajectory to the estimated goal, and (ii) a natural language based question generation and reasoning network to pose an interactive question to the oracle or interpret the oracle’s response to produce navigation instructions. To train the interactive modules, we present a large scale dataset: AVN-Instruct, based on the Landmark-RxR dataset. To substantiate the usefulness of conversations, we present experiments on the benchmark audio-goal task using the SoundSpaces simulator under various noisy settings. Our results reveal that our fully-conversational approach leads to nearly an order-of-magnitude improvement in success rate, especially in localizing new sound sources and against methods that use only uni-directional interaction.}, number={4}, journal={Proceedings of the AAAI Conference on Artificial Intelligence}, author={Liu, Xiulong and Paul, Sudipta and Chatterjee, Moitreya and Cherian, Anoop}, year={2024}, month={Mar.}, pages={3765-3773} }
+@article{Liu_Paul_Chatterjee_Cherian_2024, title={CAVEN: An Embodied Conversational Agent for Efficient Audio-Visual Navigation in Noisy Environments}, volume={38}, url={https://ojs.aaai.org/index.php/AAAI/article/view/28167}, DOI={10.1609/aaai.v38i4.28167}, abstractNote={Audio-visual navigation of an agent towards locating an audio goal is a challenging task especially when the audio is sporadic or the environment is noisy. In this paper, we present CAVEN, a Conversation-based Audio-Visual Embodied Navigation framework in which the agent may interact with a human/oracle for solving the task of navigating to an audio goal. Specifically, CAVEN is modeled as a budget-aware partially observable semi-Markov decision process that implicitly learns the uncertainty in the audio-based navigation policy to decide when and how the agent may interact with the oracle. Our CAVEN agent can engage in fully-bidirectional natural language conversations by producing relevant questions and interpret free-form, potentially noisy responses from the oracle based on the audio-visual context. To enable such a capability, CAVEN is equipped with: i) a trajectory forecasting network that is grounded in audio-visual cues to produce a potential trajectory to the estimated goal, and (ii) a natural language based question generation and reasoning network to pose an interactive question to the oracle or interpret the oracle’s response to produce navigation instructions. To train the interactive modules, we present a large scale dataset: AVN-Instruct, based on the Landmark-RxR dataset. To substantiate the usefulness of conversations, we present experiments on the benchmark audio-goal task using the SoundSpaces simulator under various noisy settings. Our results reveal that our fully-conversational approach leads to nearly an order-of-magnitude improvement in success rate, especially in localizing new sound sources and against methods that use only uni-directional interaction.}, number={4}, journal={Proceedings of the AAAI Conference on Artificial Intelligence}, author={Liu, Xiulong and Paul, Sudipta and Chatterjee, Moitreya and Cherian, Anoop}, year={2024}, month={Mar.}, pages={3765-3773},selected={true}}
 
 @InProceedings{Liu_2024_WACV,
+    abbr={WACV},
+    bibtex_show={true},
     author    = {Liu, Xiulong and Su, Kun and Shlizerman, Eli},
     title     = {Let the Beat Follow You - Creating Interactive Drum Sounds From Body Rhythm},
     booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
     month     = {January},
     year      = {2024},
-    pages     = {7187-7197}
+    pages     = {7187-7197},
+    selected={true}
 }
 
 @article{su2021howdoesitsound,
@@ -62,7 +75,8 @@
   title={How Does it Sound? Generation of Rhythmic Soundtracks for Human Movement Videos},
   author={Su, Kun* and Liu, Xiulong* and Shlizerman, Eli},
   journal={Advances in Neural Information Processing Systems},
-  year={2021}
+  year={2021},
+  selected={true}
 }
 
 @article{su2020audeo,
