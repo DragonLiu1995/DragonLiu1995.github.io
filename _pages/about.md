@@ -19,11 +19,7 @@ social: true  # includes social icons at the bottom of the page
 
 
 
-I am Xiulong Liu, currently a second-year Ph.D. at Department of Electrical and Computer
-Engineering at University of Washington, advised by Prof. [Eli Shlizerman](https://faculty.washington.edu/shlizee/). My research interests broadly lie in audio-visual learning, computer vision, time-series modeling, human-centered interaction system. I received my M.S. in ECE at UW at 2020, and worked at [OneClick AI](https://www.oneclick.ai/home/) throughout 2020 before joining UW again as a Ph.D. student.
-Prior to that, I received my B.S. degree in Electrical Engineering at Shanghai Jiaotong University. During my undergrad, my study focus is on power system and its automation. If you're interested in my background, here's my <b><a href="/assets/pdf/Xiulong_Resume.pdf">CV</a></b>
-
-In addition to research, I love teaching students about digital image processing, giving them hands-on experience about how to implement traditional image processing algorithms and realize visual effects. During my spare time, I love to challenge myself with high-intensity sports like marathon, mountaineering, road biking, speed roller-skating.
+I am Xiulong Liu, Ph.D. graduate from University of Washington at the University of Washington NeuroAI Lab advised by Prof. [Eli Shlizerman](https://faculty.washington.edu/shlizee/). My research interests broadly lie in computer vision, audio generation and multi-modal learning. Prior to that, I received my B.S. degree in Electrical Engineering at Shanghai Jiaotong University.
 
 
 

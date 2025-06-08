@@ -52,10 +52,6 @@ To give your project a background in the portfolio page, just add the img tag to
     <b>A novel system that gets as an input video frames of a musician playing the piano and generates corresponding music for the video.</b>
 </div>
 
-<h3><b>Abstract</b></h3>
-We present a novel system that gets as an input video frames of a musician playing the piano and generates the music for that video. Generation of music from visual cues is a challenging problem and it is not clear whether it is an attainable goal at all. Our main aim in this work is to explore the plausibility of such a transformation and to identify cues and components able to carry the association of sounds with visual events. To achieve the transformation we built a full pipeline named ‘Audeo’ containing three components. We first translate the video frames of the keyboard and the musician hand movements into raw mechanical musical symbolic representation Piano-Roll (Roll) for each video frame which represents the keys pressed at each time step. We then adapt the Roll to be amenable for audio synthesis by including temporal correlations. This step turns out to be critical for meaningful audio generation. As a last step, we implement Midi synthesizers to generate realistic music. Audeo converts video to audio smoothly and clearly with only a few setup constraints. We evaluate Audeo on ‘in the wild’ piano performance videos and obtain that their generated music is of reasonable audio quality and can be successfully recognized with high precision by popular music identification software.
-
-
 <div class="row">
 <div class="col-sm mt-3 mt-md-0">
     <h3><b>Video</b></h3><br>

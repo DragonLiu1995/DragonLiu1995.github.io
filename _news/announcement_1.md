@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2021-09-28 16:00:00-0400
+date: 2025-05-22 00:00:00-0400
 inline: true
 ---
 
-The paper “[How does it sound? Generation of Rhythmic Soundtrack for Human Movement Videos](https://openreview.net/forum?id=JuNatTaGZ6J)” has been accepted to **NeurIPS 2021**!
+I successfully defended my PhD thesis titled "Towards Multi-modal Interactive Systems that Connects Audio, Vision and Beyond" and became Dr. Dragon!

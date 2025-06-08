@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Multi-instrumentalist Net
-description: Kun Su*, <b>Xiulong Liu*</b>, Eli Shlizerman <b>Under revision and submission</b>
+description: Kun Su*, <b>Xiulong Liu*</b>, Eli Shlizerman <b>arxiv</b>
 img: assets/img/mi_net_teaser.png
 importance: 1
 category: work
@@ -49,10 +49,6 @@ To give your project a background in the portfolio page, just add the img tag to
 <div class="caption">
     <b>a novel system that takes as an input body movements of a musician playing a musical instrument and generates music in an unsupervised setting</b>
 </div>
-
-<h3><b>Abstract</b></h3>
-We propose a novel system that takes as an input body movements of a musician playing a musical instrument and generates music in an unsupervised setting. Learning to generate multi-instrumental music from videos without labeling the instruments is a challenging problem. To achieve the transformation, we built a pipeline named 'Multi-instrumentalistNet' (MI Net). At its base, the pipeline learns a discrete latent representation of various instruments music from log-spectrogram using a Vector Quantized Variational Autoencoder (VQ-VAE) with multi-band residual blocks. The pipeline is then trained along with an autoregressive prior conditioned on the musician's body keypoints movements encoded by a recurrent neural network. Joint training of the prior with the body movements encoder succeeds in the disentanglement of the music into latent features indicating the musical components and the instrumental features. The latent space results in distributions that are clustered into distinct instruments from which new music can be generated. Furthermore, the VQ-VAE architecture supports detailed music generation with additional conditioning. We show that a Midi can further condition the latent space such that the pipeline will generate the exact content of the music being played by the instrument in the video. We evaluate MI Net on two datasets containing videos of 13 instruments and obtain generated music of reasonable audio quality, easily associated with the corresponding instrument, and consistent with the music audio content.
-<br><br>
 
 <!-- <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
