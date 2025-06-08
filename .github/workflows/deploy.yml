@@ -49,16 +49,23 @@ jobs:
           bundle install --jobs 4 --retry 3
           npm install -g @mermaid-js/mermaid-cli
 
-      - name: Setup deploy options
+      - name: Setup deploy options & Git identity
         id: setup
         shell: bash
         run: |
+          # Configure Git user for commits
+          git config --global user.name "GitHub Action"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Determine source branch and no-push flag
           if [[ "${GITHUB_REF}" == refs/pull/*/merge ]]; then
             echo "SRC_BRANCH=${GITHUB_HEAD_REF}" >> $GITHUB_OUTPUT
             echo "NO_PUSH=--no-push"       >> $GITHUB_OUTPUT
           else
             echo "SRC_BRANCH=${GITHUB_REF#refs/heads/}" >> $GITHUB_OUTPUT
           fi
+
+          # Set deploy branch
           echo "DEPLOY_BRANCH=gh-pages" >> $GITHUB_OUTPUT
 
       - name: Deploy website
