@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 
 
 
-I am Xiulong Liu, Ph.D. graduate from University of Washington at the University of Washington NeuroAI Lab advised by Prof. [Eli Shlizerman](https://faculty.washington.edu/shlizee/). My research interests broadly lie in computer vision, audio generation and multi-modal learning. Prior to that, I received my B.S. degree in Electrical Engineering at Shanghai Jiaotong University.
+I am Xiulong Liu, a Ph.D. graduate from the University of Washington, where I conducted research in the NeuroAI Lab under the supervision of Prof. [Eli Shlizerman](https://faculty.washington.edu/shlizee/). My research interests broadly lie in computer vision, audio generation and multi-modal learning. Prior to that, I received my B.S. degree in Electrical Engineering at Shanghai Jiaotong University.
 
 
 
