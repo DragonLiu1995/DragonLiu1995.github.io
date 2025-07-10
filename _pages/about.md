@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 
 
 
-I am a ML Research at Apple AI/ML. Before joining Apple, I obtained my Ph.D. degree from the University of Washington, where I conducted research in the NeuroAI Lab under the supervision of Prof. [Eli Shlizerman](https://faculty.washington.edu/shlizee/). My research interests broadly lie in computer vision, audio generation and multi-modal learning. Prior to that, I received my B.S. degree in Electrical Engineering at Shanghai Jiaotong University.
+I am a ML Researcher at Apple AI/ML. Before joining Apple, I obtained my Ph.D. degree from the University of Washington, where I conducted research in the NeuroAI Lab under the supervision of Prof. [Eli Shlizerman](https://faculty.washington.edu/shlizee/). My research interests broadly lie in computer vision, audio generation and multi-modal learning. Prior to that, I received my B.S. degree in Electrical Engineering at Shanghai Jiaotong University.
 
 
 
